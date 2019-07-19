@@ -38,7 +38,7 @@ const App = ({ message, counter, dispatch }) => (
 const mapStateToProps = state => {
   return {
     message: 'This is message from mapStateToProps',
-    counter: state.counter || 0,
+    counter: state.counters || 0,
   }
 }
 
